@@ -22,8 +22,8 @@ These datasets can be used for pretraining larger models. Alternatively, you cau
 Training a model to predict the outcome of a case from various case specific features. 
 - [European Court of Human Rights](https://archive.org/details/ECHR-ACL2019): 11.5k cases from ECHR's public database. [Paper](https://www.aclweb.org/anthology/P19-1424/).
 
-## Annotation
-Training a model to annotate sentences/clauses/sections in a contract (or other document) according to various criteria (e.g. unfairness, argument structure, etc)
+## Document/contract annotation
+Training a model to annotate sentences/clauses/sections in a contract (or other document) according to various criteria (e.g. unfairness, argument structure, etc).
 
 - [Detecting unfair clauses from online terms-of-service](http://155.185.228.137/claudette/ToS.zip): ~12k sentences from 50 terms-of-service agreements. [Paper](https://arxiv.org/pdf/1805.01217.pdf).
 - [Usable Privacy Project Data](https://usableprivacy.org/data): a collection of datasets for privacy policies, including OPP-115, APP-350, MAPS, and the ACL/COLING 2014 Dataset.
@@ -35,13 +35,13 @@ Training a model to annotate sentences/clauses/sections in a contract (or other 
 
 
 ## Summarization 
-Training a model to summarize complex contractual jargon or legal analysis 
+Training a model to summarize complex contractual jargon or legal analysis.
 - [Summarizing contracts into plain english](https://github.com/lauramanor/legal_summarization): 446 contracts with parallel plain-text section-level English summaries. [Paper](https://www.aclweb.org/anthology/W19-2201/).
 - [Cookie policies from 151 companies](https://github.com/senjed/Summarization-of-Privacy-Policies): User agreements for 151 services with sections annotated by TOS;DR. [Paper](http://ceur-ws.org/Vol-2645/paper3.pdf).
 - [Australian case citation summarization](https://archive.ics.uci.edu/ml/datasets/Legal+Case+Reports): 4000 cases from the Federal Court of Australia with citation-based summaries. 
 - [Board of Veterans' Appeals Case Summarization](https://github.com/luimagroup/bva-summarization): Summarizing BVA cases concerning PTSD. [Paper](https://dl.acm.org/doi/10.1145/3322640.3326728).
 
-## Linking / Question Answering
+## Linking / question answering
 Training a model to answer questions or to identify passages from a target document that are relevant to a specified query. 
 - [Linking Supreme Court Opinions to the US Constitution](https://github.com/mayhewsw/legal-linking): 36k paragraphs from USC opinions with 41k links to the US Constitution. [Paper](https://www.aclweb.org/anthology/W19-2205.pdf).
 - [StAtutory Reasoning Assessment (SARA)](https://nlp.jhu.edu/law/): Collection of rules extracted from US Internal Revenue Code and natural language questions requiring application of those rules. [Paper](http://ceur-ws.org/Vol-2645/paper5.pdf).
