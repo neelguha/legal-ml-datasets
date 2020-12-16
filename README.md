@@ -1,5 +1,5 @@
 # Datasets for Machine Learning in Law
-This page contains my efforts to aggregate datasets/tasks/benchmarks pertaining to the intersection of machine learning and law. 
+This is a collection of pointers to datasets/tasks/benchmarks pertaining to the intersection of machine learning and law. 
 
 This page is continually being updated. If I missed something, please contact me at nguha@cs.stanford.edu and I'll add it! 
 
