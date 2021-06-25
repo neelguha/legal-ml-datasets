@@ -46,6 +46,7 @@ Training a model to answer questions or to identify passages from a target docum
 - [Linking Supreme Court Opinions to the US Constitution](https://github.com/mayhewsw/legal-linking): 36k paragraphs from USC opinions with 41k links to the US Constitution. [Paper](https://www.aclweb.org/anthology/W19-2205.pdf).
 - [StAtutory Reasoning Assessment (SARA)](https://nlp.jhu.edu/law/): Collection of rules extracted from US Internal Revenue Code and natural language questions requiring application of those rules. [Paper](http://ceur-ws.org/Vol-2645/paper5.pdf).
 - [PrivacyQA](https://github.com/AbhilashaRavichander/PrivacyQA_EMNLP): 1750 questions on mobile application privacy policies and 3500 relevant expert annotations. [Paper](https://arxiv.org/abs/1911.00841)
+- [CaseHOLD](https://github.com/reglab/casehold): 53,000+ MC questions that require identifying the correct holding for a case citation from the preceeding context. [Paper](https://arxiv.org/abs/2104.08671)
 
 ## Document classification 
 Training a model to classify a (typically lengthy) legal filing or document. 
