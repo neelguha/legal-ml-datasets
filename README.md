@@ -47,6 +47,7 @@ Training a model to summarize complex contractual jargon or legal analysis.
 - [Cookie policies from 151 companies](https://github.com/senjed/Summarization-of-Privacy-Policies): User agreements for 151 services with sections annotated by TOS;DR. [Paper](http://ceur-ws.org/Vol-2645/paper3.pdf).
 - [Australian case citation summarization](https://archive.ics.uci.edu/ml/datasets/Legal+Case+Reports): 4000 cases from the Federal Court of Australia with citation-based summaries. 
 - [Board of Veterans' Appeals Case Summarization](https://github.com/luimagroup/bva-summarization): Summarizing BVA cases concerning PTSD. [Paper](https://dl.acm.org/doi/10.1145/3322640.3326728).
+- [Multi-LexSum](https://openreview.net/forum?id=z1d8fUiS8Cr): Summarizing civil rights opinions at different granularities!
 
 ## Linking / question answering
 Training a model to answer questions or to identify passages from a target document that are relevant to a specified query. 
