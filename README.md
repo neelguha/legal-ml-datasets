@@ -15,12 +15,17 @@ These datasets can be used for pretraining larger models. Alternatively, you cau
 - [European Parliment Proceedings](https://www.statmt.org/europarl/): Parallel text of the proceedings of the European Parliment, collected in 11 languages. 
 - [US Code](https://uscode.house.gov/download/download.shtml): downloadable version of the US Code in XML format
 - [Patent Litigation Docket Reports](https://www.uspto.gov/learning-and-resources/electronic-data-products/patent-litigation-docket-reports-data): detailed patent litigation data on over 80k unique district court cases
+- [Pile of Law](https://huggingface.co/datasets/pile-of-law/pile-of-law): a 256GB dataset of legal, administrative, and contractual texts.
 
+## Benchmarks which combine multiple types of tasks
+- [LexGlue](https://huggingface.co/datasets/lex_glue): a GLUE inspired set of legal tasks 
+- [LegalBench](https://github.com/HazyResearch/legalbench): a large language model benchmark for legal reasoning
 
 
 ## Judgement prediction
 Training a model to predict the outcome of a case from various case specific features. 
 - [European Court of Human Rights](https://archive.org/details/ECHR-ACL2019): 11.5k cases from ECHR's public database. [Paper](https://www.aclweb.org/anthology/P19-1424/).
+
 
 ## Document/contract annotation
 Training a model to annotate sentences/clauses/sections in a contract (or other document) according to various criteria (e.g. unfairness, argument structure, etc).
@@ -32,6 +37,8 @@ Training a model to annotate sentences/clauses/sections in a contract (or other 
 - [Cornell eRulemaking Corpus](https://facultystaff.richmond.edu/~jpark/data/jpark_lrec18.zip): Collection of 731 user comments on the the Consumer Debt Collection Practices rule by the CFPB, with annotations containing information about argument structure. [Paper](https://facultystaff.richmond.edu/~jpark/papers/jpark_lrec18.pdf).
 - [German rental agreements (in English)](https://github.com/sebischair/Legal-Sentence-Classification-Datasets-and-Models): ~913 sentences from German rental agreements annotated by semantic type. [Paper](https://www.researchgate.net/publication/332171940_Classifying_Semantic_Types_of_Legal_Sentences_Portability_of_Machine_Learning_Models).
 - [Segmenting US court decision opinions into issue parts](https://github.com/jsavelka/us-dec-func-iss-sgm/blob/master/trade_secret_cases.json): 316 court decisions on cyber crime and trade secrets, manually segmented into 6 content based "types" (encompassing categories like "Introduction", "Dissent", or "Background"). [Paper](http://ebooks.iospress.nl/volumearticle/50840)
+- [ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts](https://arxiv.org/abs/2110.01799)
+- 
 
 
 ## Summarization 
@@ -47,6 +54,7 @@ Training a model to answer questions or to identify passages from a target docum
 - [StAtutory Reasoning Assessment (SARA)](https://nlp.jhu.edu/law/): Collection of rules extracted from US Internal Revenue Code and natural language questions requiring application of those rules. [Paper](http://ceur-ws.org/Vol-2645/paper5.pdf).
 - [PrivacyQA](https://github.com/AbhilashaRavichander/PrivacyQA_EMNLP): 1750 questions on mobile application privacy policies and 3500 relevant expert annotations. [Paper](https://arxiv.org/abs/1911.00841)
 - [CaseHOLD](https://github.com/reglab/casehold): 53,000+ MC questions that require identifying the correct holding for a case citation from the preceeding context. [Paper](https://arxiv.org/abs/2104.08671)
+- [LegalSupport](https://crfm.stanford.edu/helm/v1.0/?group=legal_support): inferring BlueBook support signals from legal texts
 
 ## Document classification 
 Training a model to classify a (typically lengthy) legal filing or document. 
