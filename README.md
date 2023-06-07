@@ -48,6 +48,7 @@ Training a model to summarize complex contractual jargon or legal analysis.
 - [Australian case citation summarization](https://archive.ics.uci.edu/ml/datasets/Legal+Case+Reports): 4000 cases from the Federal Court of Australia with citation-based summaries. 
 - [Board of Veterans' Appeals Case Summarization](https://github.com/luimagroup/bva-summarization): Summarizing BVA cases concerning PTSD. [Paper](https://dl.acm.org/doi/10.1145/3322640.3326728).
 - [Multi-LexSum](https://openreview.net/forum?id=z1d8fUiS8Cr): Summarizing civil rights opinions at different granularities!
+- [EUR-Lex-Sum](https://github.com/achouhan93/eur-lex-sum): Dataset for cross-lingual summarization based on manually curated document summaries of legal acts from the European Union law platform.
 
 ## Linking / question answering
 Training a model to answer questions or to identify passages from a target document that are relevant to a specified query. 
@@ -65,6 +66,7 @@ Training a model to classify a (typically lengthy) legal filing or document.
 ## Misc
 Datasets which don't fit into the above categories:
 - [Segmenting sentences in US cases](https://github.com/jsavelka/sbd_adjudicatory_dec): ~26k sentences from 80 cases. [Paper](https://www.atala.org/sites/default/files/2-%20TAL-58-2-sbd-adjudicatory-decisions.pdf).
+- [Demosthenes](https://github.com/adele-project/demosthenes) Corpus for argument mining in legal documents.
 
 
 
