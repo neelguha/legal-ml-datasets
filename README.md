@@ -16,6 +16,7 @@ These datasets can be used for pretraining larger models. Alternatively, you cau
 - [US Code](https://uscode.house.gov/download/download.shtml): downloadable version of the US Code in XML format
 - [Patent Litigation Docket Reports](https://www.uspto.gov/learning-and-resources/electronic-data-products/patent-litigation-docket-reports-data): detailed patent litigation data on over 80k unique district court cases
 - [Pile of Law](https://huggingface.co/datasets/pile-of-law/pile-of-law): a 256GB dataset of legal, administrative, and contractual texts.
+- [Open Australian Legal Corpus](https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus): The first and only multijurisdictional open corpus of Australian legislative and judicial documents.
 
 ## Benchmarks which combine multiple types of tasks
 - [LexGlue](https://huggingface.co/datasets/lex_glue): a GLUE inspired set of legal tasks 
