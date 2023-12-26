@@ -17,6 +17,7 @@ These datasets can be used for pretraining larger models. Alternatively, you cau
 - [Patent Litigation Docket Reports](https://www.uspto.gov/learning-and-resources/electronic-data-products/patent-litigation-docket-reports-data): detailed patent litigation data on over 80k unique district court cases
 - [Pile of Law](https://huggingface.co/datasets/pile-of-law/pile-of-law): a 256GB dataset of legal, administrative, and contractual texts.
 - [Open Australian Legal Corpus](https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus): The first and only multijurisdictional open corpus of Australian legislative and judicial documents.
+- [Ontario Laws and Regs](https://huggingface.co/datasets/hordruma/ontario_laws_and_regs): A dataset comprised of the most recent version of all current and revoked laws and regulations from Ontario, Canada, totalling around 5,000 documents.
 
 ## Benchmarks which combine multiple types of tasks
 - [LexGlue](https://huggingface.co/datasets/lex_glue): a GLUE inspired set of legal tasks 
