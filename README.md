@@ -18,6 +18,8 @@ These datasets can be used for pretraining larger models. Alternatively, you cau
 - [Pile of Law](https://huggingface.co/datasets/pile-of-law/pile-of-law): a 256GB dataset of legal, administrative, and contractual texts.
 - [Open Australian Legal Corpus](https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus): The first and only multijurisdictional open corpus of Australian legislative and judicial documents.
 - [Ontario Laws and Regs](https://huggingface.co/datasets/hordruma/ontario_laws_and_regs): A dataset comprised of the most recent version of all current and revoked laws and regulations from Ontario, Canada, totalling around 5,000 documents.
+- [The Cambridge Law Corpus](https://www.cst.cam.ac.uk/research/srg/projects/law): A dataset consisting of raw text and metadata for 250,000+ court cases from the UK, dating back to the 16th century. Additional expert annotations are provided for a sample of 638 cases.
+
 
 ## Benchmarks which combine multiple types of tasks
 - [LexGlue](https://huggingface.co/datasets/lex_glue): a GLUE inspired set of legal tasks 
@@ -40,7 +42,6 @@ Training a model to annotate sentences/clauses/sections in a contract (or other 
 - [German rental agreements (in English)](https://github.com/sebischair/Legal-Sentence-Classification-Datasets-and-Models): ~913 sentences from German rental agreements annotated by semantic type. [Paper](https://www.researchgate.net/publication/332171940_Classifying_Semantic_Types_of_Legal_Sentences_Portability_of_Machine_Learning_Models).
 - [Segmenting US court decision opinions into issue parts](https://github.com/jsavelka/us-dec-func-iss-sgm/blob/master/trade_secret_cases.json): 316 court decisions on cyber crime and trade secrets, manually segmented into 6 content based "types" (encompassing categories like "Introduction", "Dissent", or "Background"). [Paper](http://ebooks.iospress.nl/volumearticle/50840)
 - [ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts](https://arxiv.org/abs/2110.01799)
-- 
 
 
 ## Summarization 
