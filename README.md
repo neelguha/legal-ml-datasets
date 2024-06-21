@@ -9,21 +9,21 @@ Neel Guha
 ## Task agnostic datasets 
 These datasets can be used for pretraining larger models. Alternatively, you cause them to construct artificial tasks. 
 
-- [Caselaw Access Project](https://case.law/): all official, book-published United States case law. A processed version of the dataset is available on Huggingface [here](https://huggingface.co/datasets/TeraflopAI/Caselaw_Access_Project).
-- [Legifrance](https://www.legifrance.gouv.fr/): a French legal publisher providing access to law codes and legal decisions. Requires scraping ([Paper](http://ceur-ws.org/Vol-2645/paper2.pdf)). 
-- [US Supreme Court Database](http://scdb.wustl.edu/): information about every case decided by the US Supreme Court between 1791 and today.
+- [Caselaw Access Project](https://case.law/): All official, book-published United States case law. A processed version of the dataset is available on Huggingface [here](https://huggingface.co/datasets/TeraflopAI/Caselaw_Access_Project).
+- [Legifrance](https://www.legifrance.gouv.fr/): A French legal publisher providing access to law codes and legal decisions. Requires scraping ([Paper](http://ceur-ws.org/Vol-2645/paper2.pdf)). 
+- [US Supreme Court Database](http://scdb.wustl.edu/): Information about every case decided by the US Supreme Court between 1791 and today.
 - [European Parliment Proceedings](https://www.statmt.org/europarl/): Parallel text of the proceedings of the European Parliment, collected in 11 languages. 
-- [US Code](https://uscode.house.gov/download/download.shtml): downloadable version of the US Code in XML format
-- [Patent Litigation Docket Reports](https://www.uspto.gov/learning-and-resources/electronic-data-products/patent-litigation-docket-reports-data): detailed patent litigation data on over 80k unique district court cases
-- [Pile of Law](https://huggingface.co/datasets/pile-of-law/pile-of-law): a 256GB dataset of legal, administrative, and contractual texts.
+- [US Code](https://uscode.house.gov/download/download.shtml): Downloadable version of the US Code in XML format
+- [Patent Litigation Docket Reports](https://www.uspto.gov/learning-and-resources/electronic-data-products/patent-litigation-docket-reports-data): Detailed patent litigation data on over 80k unique district court cases
+- [Pile of Law](https://huggingface.co/datasets/pile-of-law/pile-of-law): A 256GB dataset of legal, administrative, and contractual texts.
 - [Open Australian Legal Corpus](https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus): The first and only multijurisdictional open corpus of Australian legislative and judicial documents.
 - [Ontario Laws and Regs](https://huggingface.co/datasets/hordruma/ontario_laws_and_regs): A dataset comprised of the most recent version of all current and revoked laws and regulations from Ontario, Canada, totalling around 5,000 documents.
 - [The Cambridge Law Corpus](https://www.cst.cam.ac.uk/research/srg/projects/law): A dataset consisting of raw text and metadata for 250,000+ court cases from the UK, dating back to the 16th century. Additional expert annotations are provided for a sample of 638 cases.
 
 
 ## Benchmarks combining multiple types of tasks
-- [LexGlue](https://huggingface.co/datasets/lex_glue): a GLUE inspired set of legal tasks 
-- [LegalBench](https://github.com/HazyResearch/legalbench): a large language model benchmark for legal reasoning
+- [LexGlue](https://huggingface.co/datasets/lex_glue): A GLUE inspired set of legal tasks, measuring different types of legal language understanding. 
+- [LegalBench](https://github.com/HazyResearch/legalbench): A large language model benchmark for legal reasoning, encomassing 160+ tasks.
 
 
 ## Judgement prediction
@@ -35,7 +35,7 @@ Training a model to predict the outcome of a case from various case specific fea
 Training a model to annotate sentences/clauses/sections in a contract (or other document) according to various criteria (e.g. unfairness, argument structure, etc).
 
 - [Detecting unfair clauses from online terms-of-service](http://155.185.228.137/claudette/ToS.zip): ~12k sentences from 50 terms-of-service agreements. [Paper](https://arxiv.org/pdf/1805.01217.pdf).
-- [Usable Privacy Project Data](https://usableprivacy.org/data): a collection of datasets for privacy policies, including OPP-115, APP-350, MAPS, and the ACL/COLING 2014 Dataset.
+- [Usable Privacy Project Data](https://usableprivacy.org/data): A collection of datasets for privacy policies, including OPP-115, APP-350, MAPS, and the ACL/COLING 2014 Dataset.
 - [Contract extraction dataset](http://nlp.cs.aueb.gr/software_and_datasets/CONTRACTS_ICAIL2017/index.html): 3,500 English contracts manually annotated with 11 different contract elements. [Paper](http://nlp.cs.aueb.gr/pubs/icail2017.pdf).
 - [EURLEX with EUROVOC annotations](http://nlp.cs.aueb.gr/software_and_datasets/EURLEX57K/index.html): 57k legilsative documents from the EU's public document database, annotated with concepts from EUROVOC. [Paper](https://www.aclweb.org/anthology/W19-2209/).
 - [Cornell eRulemaking Corpus](https://facultystaff.richmond.edu/~jpark/data/jpark_lrec18.zip): Collection of 731 user comments on the the Consumer Debt Collection Practices rule by the CFPB, with annotations containing information about argument structure. [Paper](https://facultystaff.richmond.edu/~jpark/papers/jpark_lrec18.pdf).
