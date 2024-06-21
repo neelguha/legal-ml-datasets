@@ -9,7 +9,7 @@ Neel Guha
 ## Task agnostic datasets 
 These datasets can be used for pretraining larger models. Alternatively, you cause them to construct artificial tasks. 
 
-- [Caselaw Access Project](https://case.law/): all official, book-published United States case law.
+- [Caselaw Access Project](https://case.law/): all official, book-published United States case law. A processed version of the dataset is available on Huggingface [here](https://huggingface.co/datasets/TeraflopAI/Caselaw_Access_Project).
 - [Legifrance](https://www.legifrance.gouv.fr/): a French legal publisher providing access to law codes and legal decisions. Requires scraping ([Paper](http://ceur-ws.org/Vol-2645/paper2.pdf)). 
 - [US Supreme Court Database](http://scdb.wustl.edu/): information about every case decided by the US Supreme Court between 1791 and today.
 - [European Parliment Proceedings](https://www.statmt.org/europarl/): Parallel text of the proceedings of the European Parliment, collected in 11 languages. 
@@ -21,7 +21,7 @@ These datasets can be used for pretraining larger models. Alternatively, you cau
 - [The Cambridge Law Corpus](https://www.cst.cam.ac.uk/research/srg/projects/law): A dataset consisting of raw text and metadata for 250,000+ court cases from the UK, dating back to the 16th century. Additional expert annotations are provided for a sample of 638 cases.
 
 
-## Benchmarks which combine multiple types of tasks
+## Benchmarks combining multiple types of tasks
 - [LexGlue](https://huggingface.co/datasets/lex_glue): a GLUE inspired set of legal tasks 
 - [LegalBench](https://github.com/HazyResearch/legalbench): a large language model benchmark for legal reasoning
 
@@ -42,6 +42,7 @@ Training a model to annotate sentences/clauses/sections in a contract (or other 
 - [German rental agreements (in English)](https://github.com/sebischair/Legal-Sentence-Classification-Datasets-and-Models): ~913 sentences from German rental agreements annotated by semantic type. [Paper](https://www.researchgate.net/publication/332171940_Classifying_Semantic_Types_of_Legal_Sentences_Portability_of_Machine_Learning_Models).
 - [Segmenting US court decision opinions into issue parts](https://github.com/jsavelka/us-dec-func-iss-sgm/blob/master/trade_secret_cases.json): 316 court decisions on cyber crime and trade secrets, manually segmented into 6 content based "types" (encompassing categories like "Introduction", "Dissent", or "Background"). [Paper](http://ebooks.iospress.nl/volumearticle/50840)
 - [ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts](https://arxiv.org/abs/2110.01799)
+- [LegalDiscourse](https://aclanthology.org/2024.naacl-long.472.pdf): a dataset for span/relation extraction over state laws.
 
 
 ## Summarization 
@@ -59,11 +60,15 @@ Training a model to answer questions or to identify passages from a target docum
 - [StAtutory Reasoning Assessment (SARA)](https://nlp.jhu.edu/law/): Collection of rules extracted from US Internal Revenue Code and natural language questions requiring application of those rules. [Paper](http://ceur-ws.org/Vol-2645/paper5.pdf).
 - [PrivacyQA](https://github.com/AbhilashaRavichander/PrivacyQA_EMNLP): 1750 questions on mobile application privacy policies and 3500 relevant expert annotations. [Paper](https://arxiv.org/abs/1911.00841)
 - [CaseHOLD](https://github.com/reglab/casehold): 53,000+ MC questions that require identifying the correct holding for a case citation from the preceeding context. [Paper](https://arxiv.org/abs/2104.08671)
-- [LegalSupport](https://crfm.stanford.edu/helm/v1.0/?group=legal_support): inferring BlueBook support signals from legal texts
+
 
 ## Document classification 
 Training a model to classify a (typically lengthy) legal filing or document. 
 - [EDGAR](https://www.sec.gov/edgar/searchedgar/accessing-edgar-data.htm): Online public database for US Securities and Exchange Commission. Filings can be classified by filing type. [Paper](https://arxiv.org/abs/1912.06905).
+
+
+## Retrieval tasks
+- [LoCo](https://hazyresearch.stanford.edu/blog/2024-05-20-m2-bert-retrieval): Focuses on long context retrieval, with a subset of tasks over legal document/query distributions.
 
 
 ## Misc
