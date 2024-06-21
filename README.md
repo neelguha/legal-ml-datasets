@@ -42,7 +42,6 @@ Training a model to annotate sentences/clauses/sections in a contract (or other 
 - [German rental agreements (in English)](https://github.com/sebischair/Legal-Sentence-Classification-Datasets-and-Models): ~913 sentences from German rental agreements annotated by semantic type. [Paper](https://www.researchgate.net/publication/332171940_Classifying_Semantic_Types_of_Legal_Sentences_Portability_of_Machine_Learning_Models).
 - [Segmenting US court decision opinions into issue parts](https://github.com/jsavelka/us-dec-func-iss-sgm/blob/master/trade_secret_cases.json): 316 court decisions on cyber crime and trade secrets, manually segmented into 6 content based "types" (encompassing categories like "Introduction", "Dissent", or "Background"). [Paper](http://ebooks.iospress.nl/volumearticle/50840)
 - [ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts](https://arxiv.org/abs/2110.01799)
-- [LegalDiscourse](https://aclanthology.org/2024.naacl-long.472.pdf): a dataset for span/relation extraction over state laws.
 
 
 ## Summarization 
@@ -65,6 +64,10 @@ Training a model to answer questions or to identify passages from a target docum
 ## Document classification 
 Training a model to classify a (typically lengthy) legal filing or document. 
 - [EDGAR](https://www.sec.gov/edgar/searchedgar/accessing-edgar-data.htm): Online public database for US Securities and Exchange Commission. Filings can be classified by filing type. [Paper](https://arxiv.org/abs/1912.06905).
+
+## Information/entity extraction
+- [LegalDiscourse](https://aclanthology.org/2024.naacl-long.472.pdf): a dataset for span/relation extraction over state laws.
+- [AsyLex: A Dataset for Legal Language Processing of Refugee Claims](https://aclanthology.org/2023.nllp-1.24/): Entity extraction over a large dataset of Canadian Refugee status determination hearings.
 
 
 ## Retrieval tasks
