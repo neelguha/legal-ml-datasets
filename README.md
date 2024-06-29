@@ -42,6 +42,7 @@ Training a model to annotate sentences/clauses/sections in a contract (or other 
 - [German rental agreements (in English)](https://github.com/sebischair/Legal-Sentence-Classification-Datasets-and-Models): ~913 sentences from German rental agreements annotated by semantic type. [Paper](https://www.researchgate.net/publication/332171940_Classifying_Semantic_Types_of_Legal_Sentences_Portability_of_Machine_Learning_Models).
 - [Segmenting US court decision opinions into issue parts](https://github.com/jsavelka/us-dec-func-iss-sgm/blob/master/trade_secret_cases.json): 316 court decisions on cyber crime and trade secrets, manually segmented into 6 content based "types" (encompassing categories like "Introduction", "Dissent", or "Background"). [Paper](http://ebooks.iospress.nl/volumearticle/50840)
 - [ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts](https://arxiv.org/abs/2110.01799)
+- [CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review](https://arxiv.org/abs/2103.06268): Contractual clauses annotated by type
 
 
 ## Summarization 
