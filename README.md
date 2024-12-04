@@ -249,4 +249,10 @@ Neel Guha
 
 >The Supreme Court Database is the definitive source for researchers, students, journalists, and citizens interested in the U.S. Supreme Court. The Database contains over two hundred pieces of information about each case decided by the Court between the 1791 and 2022 terms. Examples include the identity of the court whose decision the Supreme Court reviewed, the parties to the suit, the legal provisions considered in the case, and the votes of the Justices.
 
+### [Competition on Legal Information Extraction and Entailment (COLIEE)](https://coliee.org/overview)
 
+>The Competition on Legal Information Extraction and Entailment (COLIEE) is an annual event that promotes research in legal information processing. It features four main tasks: Legal Case Retrieval, Legal Case Entailment, Statute Law Retrieval, and Legal Textual Entailment. COLIEE provides datasets in multiple languages, including low-resource ones, to encourage the development of AI solutions across diverse legal systems.
+
+### [Automated Legal Question Answering Competition (ALQAC)](https://alqac.github.io/)
+
+>The Automated Legal Question Answering Competition (ALQAC) is an annual event designed to foster research on legal assistance systems, particularly in low-resource languages. The competition focuses on challenging tasks such as Legal Document Retrieval and Legal Question Answering, providing manually annotated datasets derived from well-known legal statutes. By addressing the limitations of low-resource languages in the legal domain, ALQAC aims to advance AI-driven solutions and build a strong research community for legal technology development.
