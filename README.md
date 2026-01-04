@@ -2,16 +2,12 @@
 
 This is a collection of pointers to datasets/tasks/benchmarks pertaining to the intersection of machine learning and law.
 
-This page is continually being updated. If there's a dataset/resource you think should be included here, please make a pull request adding it, or contact me at nguha@stanford.edu and I'll add it!
-
-A spreadsheet corresponding to the papers listed here can be found [here](https://docs.google.com/spreadsheets/d/11o7R3TRtREbDcxcbCMUERu5WRZsgLZtTaRFUhr4jLtk/edit?usp=sharing).
+If you want to add a dataset, create a pull request (following the format below). Alternatively, email [Neel Guha](neelguha@gmail.com).
 
 Neel Guha
 
  ---
 
-###[An attempt to create a data-set to finetune a LLM to spot issues in an Affidavit] (https://huggingface.co/datasets/datuk2/affi2)
->This may be redundant as the latest LLM seem to know and able to identify statements like hearsay and so on. This data-set was build based on personal experiences of how one identify statements that are liable to be challenged by opposition. It did not go far obviously since ones person effort is limited. So I am hoping it can draw on many others so a much useful data-set can be build. 
 
 ### [A Corpus of eRulemaking User Comments for Measuring Evaluability of Arguments](https://facultystaff.richmond.edu/~jpark/papers/jpark_lrec18.pdf)
 
@@ -24,6 +20,9 @@ Neel Guha
 ### [ACL/CoLing Dataset](https://usableprivacy.org/data)
 
 >We created a corpus of 1,010 privacy policies from the top websites ranked on Alexa.com. The privacy policies in the dataset were retrieved in December 2013 and January 2014.
+
+### [Affidavit Verification] (https://huggingface.co/datasets/datuk2/affi2)
+>From: [Chris Kwan](https://huggingface.co/datuk2/datasets): "This may be redundant as the latest LLM seem to know and able to identify statements like hearsay and so on. This data-set was build based on personal experiences of how one identify statements that are liable to be challenged by opposition. It did not go far obviously since ones person effort is limited. So I am hoping it can draw on many others so a much useful data-set can be build."
 
 ### [APP-350 Dataset](https://usableprivacy.org/data)
 
