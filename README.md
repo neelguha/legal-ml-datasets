@@ -10,6 +10,9 @@ Neel Guha
 
  ---
 
+###[An attempt to create a data-set to finetune a LLM to spot issues in an Affidavit] (https://huggingface.co/datasets/datuk2/affi2)
+>This may be redundant as the latest LLM seem to know and able to identify statements like hearsay and so on. This data-set was build based on personal experiences of how one identify statements that are liable to be challenged by opposition. It did not go far obviously since ones person effort is limited. So I am hoping it can draw on many others so a much useful data-set can be build. 
+
 ### [A Corpus of eRulemaking User Comments for Measuring Evaluability of Arguments](https://facultystaff.richmond.edu/~jpark/papers/jpark_lrec18.pdf)
 
 >eRulemaking is a means for government agencies to directly reach citizens to solicit their opinions and experiences regarding newly proposed rules. The effort, however, is partly hampered by citizens’ comments that lack reasoning and evidence, which are largely ignored since government agencies are unable to evaluate the validity and strength. We present Cornell eRulemaking Corpus – CDCP, an argument mining corpus annotated with argumentative structure information capturing the evaluability of arguments. The corpus consists of 731 user comments on Consumer Debt Collection Practices (CDCP) rule by the Consumer Financial Protection Bureau (CFPB); the resulting dataset contains 4931 elementary unit and 1221 support relation annotations. It is a resource for building argument mining systems that can not only extract arguments from unstructured text, but also identify what additional information is necessary for readers to understand and evaluate a given argument. Immediate applications include providing real-time feedback to commenters, specifying which types of support for which propositions can be added to construct better-formed arguments.
@@ -213,4 +216,10 @@ Neel Guha
 ### [Washington University Law Supreme Court Database](http://scdb.wustl.edu/)
 
 >The Supreme Court Database is the definitive source for researchers, students, journalists, and citizens interested in the U.S. Supreme Court. The Database contains over two hundred pieces of information about each case decided by the Court between the 1791 and 2022 terms. Examples include the identity of the court whose decision the Supreme Court reviewed, the parties to the suit, the legal provisions considered in the case, and the votes of the Justices.
+
+
+### [Western Australia's Strata Act sliced and diced into a dataset] (https://huggingface.co/datasets/datuk2/WAstrata)
+>This was a first attempt to look at a particular Act and see if it is possible to created a data-set that one can use to be "smarter" that just a RAG. The difference here is that a data-set is designed to give the LLM some idea what questions will be asked (this is not difficult as most people ask the same hence the popularity of Q&A) and how to answer them given subtle variations. This task is not difficuly in the beginning but as time goes by, I decided to ask LLMs to create questions and answers. So at least 25% of the data there are created by me going through the Act and the balance 75% by LLM. This is basically to give me some experiences to tackle larger Acts like Environmental Planning etc. Note that some of the answers I gave in this dataset refers to cases too. So in short one must be familiar with the Act.  
+
+
 
