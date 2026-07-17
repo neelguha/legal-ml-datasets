@@ -224,5 +224,7 @@ Neel Guha
 ### [Western Australia's Strata Act sliced and diced into a dataset] (https://huggingface.co/datasets/datuk2/WAstrata)
 >This was a first attempt to look at a particular Act and see if it is possible to created a data-set that one can use to be "smarter" that just a RAG. The difference here is that a data-set is designed to give the LLM some idea what questions will be asked (this is not difficult as most people ask the same hence the popularity of Q&A) and how to answer them given subtle variations. This task is not difficuly in the beginning but as time goes by, I decided to ask LLMs to create questions and answers. So at least 25% of the data there are created by me going through the Act and the balance 75% by LLM. This is basically to give me some experiences to tackle larger Acts like Environmental Planning etc. Note that some of the answers I gave in this dataset refers to cases too. So in short one must be familiar with the Act.  
 
+### [EU AI Act OpenRAG ] (https://huggingface.co/datasets/faitholopade/aiact-openrag)
+Structurally chunked, pre-embedded SQLite corpus of Regulation (EU) 2024/1689 with article/paragraph/annex metadata, EUR-Lex links and benchmark evaluation. CC BY 4.0 for original corpus components; underlying EU text subject to EU reuse terms.
 
 
