@@ -224,5 +224,6 @@ Neel Guha
 ### [Western Australia's Strata Act sliced and diced into a dataset] (https://huggingface.co/datasets/datuk2/WAstrata)
 >This was a first attempt to look at a particular Act and see if it is possible to created a data-set that one can use to be "smarter" that just a RAG. The difference here is that a data-set is designed to give the LLM some idea what questions will be asked (this is not difficult as most people ask the same hence the popularity of Q&A) and how to answer them given subtle variations. This task is not difficuly in the beginning but as time goes by, I decided to ask LLMs to create questions and answers. So at least 25% of the data there are created by me going through the Act and the balance 75% by LLM. This is basically to give me some experiences to tackle larger Acts like Environmental Planning etc. Note that some of the answers I gave in this dataset refers to cases too. So in short one must be familiar with the Act.  
 
+### [VerdictWiki Major Litigation Case Records](https://verdictwiki.com/)
 
-
+>Independently maintained reference database of 97 major lawsuits (mass torts, class actions, landmark verdicts) across 11 countries. Structured per-case fields: case type, docket/MDL numbers, jurisdiction, filing year, plaintiff count over time, and settlement/verdict figures with source citations to public court records and regulatory filings. Useful for case-outcome and settlement-amount analysis.
