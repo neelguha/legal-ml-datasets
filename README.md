@@ -112,6 +112,10 @@ Neel Guha
 
 >We study how contract element extraction can be automated. We provide a labeled dataset with gold contract element annotations, along with an unlabeled dataset of contracts that can be used to pretrain word embeddings. Both datasets are provided in an encoded form to bypass privacy issues. We describe and experimentally compare several contract element extraction methods that use manually written rules and linear classifiers (logistic regression, SVMs) with hand-crafted features, word embeddings, and part-of-speech tag embeddings. The best results are obtained by a hybrid method that combines machine learning (with hand-crafted features and embeddings) and manually written post-processing rules.
 
+### [Lebanese Legislation](https://huggingface.co/datasets/taktekhq/lebanese-legislation)
+
+>103,117 Lebanese laws, decrees and decisions with 389,078 articles, 47,657 court rulings and 6,851 Official Gazette issues, from 1904 to today, in Arabic and French where published, with amendment, repeal and citation links between texts. Texts come from the Centre for Research and Studies in Legal Informatics, Lebanese University.
+
 ### [Legal Linking: Citation Resolution and Suggestion in Constitutional Law](https://aclanthology.org/W19-2205.pdf)
 
 >This paper describes a dataset and baseline systems for linking paragraphs from court cases to clauses or amendments in the US Constitution. We implement a rule-based system, a linear model, and a neural architecture for matching pairs of paragraphs, taking training data from online databases in a distantly-supervised fashion. In experiments on a manually-annotated evaluation set, we find that our proposed neural system outperforms a rules-driven baseline. Qualitatively, this performance gap seems largest for abstract or indirect links between documents, which suggests that our system might be useful for answering political science and legal research questions or discovering novel links. We release the dataset along with the manuallyannotated evaluation set to foster future work.
